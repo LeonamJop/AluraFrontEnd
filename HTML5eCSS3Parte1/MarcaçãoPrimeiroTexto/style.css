@@ -1,0 +1,43 @@
+body{
+    background-color: #CCCCCC;
+}
+
+#banner{
+    width: 100%;
+    border-radius: 25px;
+    border: 10px solid black;
+}
+
+h1{
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: darkred;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.principal{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+.beneficios{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#missao{
+    font-size: 50px;
+}
+
+#corMissao{
+    color: red;
+}
+
+.itens{
+    font-style: italic;
+}
