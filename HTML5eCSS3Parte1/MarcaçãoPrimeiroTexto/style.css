@@ -1,42 +1,27 @@
 body{
-    background-color: #CCCCCC;
+    background-color: #900020;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    width: 100%;
 }
 
 #banner{
     width: 100%;
-    border-radius: 25px;
     border: 10px solid black;
-}
-
-h1{
-    border: 5px solid black;
     border-radius: 25px;
-    background-color: darkred;
-    padding: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-
-h2{
-    border: 5px solid black;
-    border-radius: 25px;
-    background-color: darkred;
-    padding: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
 }
 
 .principal{
+    background-color: #CCCCCC;
+    padding: 30px;
+    margin: 10px;
     text-align: center;
     font-size: 30px;
+    border: 10px solid black;
     border-radius: 50px;
-}
-
-.beneficios{
-    background-color: white;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 10px;
 }
 
 #missao{
@@ -44,9 +29,35 @@ h2{
 }
 
 #corMissao{
-    color: red;
+    color: #900020;
+}
+
+.beneficios{
+    background: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+
+.h3beneficios{
+    text-align: center;
 }
 
 .itens{
     font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 20%;
+}
+
+.imagembeneficios{
+    width: 50%;
+    border: 10px solid #900020;
+    border-radius: 20px;
 }
