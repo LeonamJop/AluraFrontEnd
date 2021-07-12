@@ -17,6 +17,15 @@ h1{
     margin-right: 400px;
 }
 
+h2{
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: darkred;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
 .principal{
     text-align: center;
     font-size: 30px;
