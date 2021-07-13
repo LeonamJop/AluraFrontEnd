@@ -1,17 +1,20 @@
 body{
     background-color: #900020;
 }
+
 header{
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: bold;
     margin: 20px;
-    width: 100%;
 }
 
 #banner{
     width: 100%;
-    border: 10px solid black;
-    border-radius: 25px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: black;
 }
 
 .principal{
@@ -20,33 +23,52 @@ header{
     margin: 10px;
     text-align: center;
     font-size: 30px;
-    border: 10px solid black;
+    border: 5px solid black;
     border-radius: 50px;
+}
+
+.principal h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding: auto;
+}
+
+.principal p{
+    padding: 10px;
+    margin: 0 auto;
 }
 
 #missao{
     font-size: 50px;
+    font-style: italic;
 }
 
 #corMissao{
     color: #900020;
+    font-weight: bold;
 }
 
 .beneficios{
-    background: #ffffff;
+    background: url(imagens/bg.jpg);
+    color: #ffffff;
     padding: 20px;
     margin: 10px;
     font-size: 30px;
-    border: 10px solid black;
+    border: 5px solid black;
     border-radius: 50px;
 }
 
 .h3beneficios{
     text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
 }
 
-.itens{
+.itens li{
     font-style: italic;
+    padding: 5px;
+    margin-left: 20px;
 }
 
 ul{
@@ -58,6 +80,7 @@ ul{
 
 .imagembeneficios{
     width: 50%;
-    border: 10px solid #900020;
+    border: 5px solid black;
     border-radius: 20px;
+    margin-left: auto;
 }
