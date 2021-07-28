@@ -9,16 +9,24 @@ header{
     margin: 20px;
 }
 
+.titulo{
+    background: url(imagens/bg.jpg);
+    color: #ffffff;
+    border: 5px solid #000000;
+    border-radius: 50px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 #banner{
     width: 100%;
-    border-top: 5px;
-    border-bottom: 5px;
-    border-style: solid;
-    border-color: black;
+    height: 640px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 .principal{
-    background-color: #CCCCCC;
+    background-color: darkgray;
     padding: 30px;
     margin: 10px;
     text-align: center;
@@ -49,7 +57,7 @@ header{
 }
 
 .beneficios{
-    background: url(imagens/bg.jpg);
+    background: url(imagens/parede-preta.jpg);
     color: #ffffff;
     padding: 20px;
     margin: 10px;
