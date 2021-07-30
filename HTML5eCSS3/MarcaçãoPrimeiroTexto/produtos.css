@@ -3,6 +3,11 @@ header{
     padding: 20px 0;
 }
 
+.imagem-logo-topo{
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(10px 10px 5px #222222)
+}
+
 .caixa{
     position: relative;
     width: 940px;
@@ -35,7 +40,7 @@ nav a:hover{
 
 main{
     border-top: 5px solid black;
-    background: #900020;
+    background: linear-gradient(#900020,#000);
 }
 
 .produtos{
@@ -96,5 +101,4 @@ footer{
     color: #FFFFFF;
     font-size: 13px;
     margin-top: 20px;
-
 }
